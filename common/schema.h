@@ -81,6 +81,8 @@ namespace swss {
 #define APP_SFLOW_SESSION_TABLE_NAME      "SFLOW_SESSION_TABLE"
 #define APP_SFLOW_SAMPLE_RATE_TABLE_NAME  "SFLOW_SAMPLE_RATE_TABLE"
 
+#define APP_TX_ERR_TABLE_NAME           "TX_ERR_APPL"
+
 #define APP_NAT_TABLE_NAME              "NAT_TABLE"
 #define APP_NAPT_TABLE_NAME             "NAPT_TABLE"
 #define APP_NAT_TWICE_TABLE_NAME        "NAT_TWICE_TABLE"
@@ -434,6 +436,8 @@ namespace swss {
 #define CFG_FLOW_COUNTER_ROUTE_PATTERN_TABLE_NAME   "FLOW_COUNTER_ROUTE_PATTERN"
 #define CFG_LOGGER_TABLE_NAME                       "LOGGER"
 
+#define CFG_PORT_TX_ERR_TABLE_NAME                  "TX_ERR_CFG"
+
 /***** STATE DATABASE *****/
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY"
@@ -516,6 +520,8 @@ namespace swss {
 /***** Counter capability tables for Queue and Port ****/
 #define STATE_QUEUE_COUNTER_CAPABILITIES_NAME   "QUEUE_COUNTER_CAPABILITIES"
 #define STATE_PORT_COUNTER_CAPABILITIES_NAME    "PORT_COUNTER_CAPABILITIES"
+
+#define STATE_TX_ERR_TABLE_NAME                     "TX_ERR_STATE"
 
 /***** PROFILE DATABASE *****/
 
